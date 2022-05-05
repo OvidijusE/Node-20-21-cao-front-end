@@ -1,0 +1,32 @@
+:root {
+    --orange : rgb(253,126,13)
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+}
+
+/* .container{
+    border-bottom: 0.05rem solid rgb(190, 190, 190);
+    
+} */
+
+.vet-bee-logo {
+    max-width: 10rem;
+}
+
+.nav-items {
+    color: var(--orange);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hr {
+    border: 0.01rem solid rgb(207, 207, 207);
+   
+}
