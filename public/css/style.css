@@ -1,24 +1,24 @@
 :root {
-    --orange : rgb(253,126,13)
+    --orange : rgb(253,126,13);
+    --light-grey : rgb(230, 228, 228);
+    --white : rgb(255,255,255);
+    --grey : rgb(125,130,133);
 }
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding: 1rem;
     
 }
 
-/* .container{
-    border-bottom: 0.05rem solid rgb(190, 190, 190);
-    
-} */
 
 .vet-bee-logo {
     max-width: 10rem;
 }
 
-.nav-items {
+.nav-item {
     color: var(--orange);
     text-decoration: none;
     padding: 1rem;
@@ -27,6 +27,59 @@
 }
 
 .hr {
-    border: 0.01rem solid rgb(207, 207, 207);
+    border: 0.01rem solid var(--light-grey)
    
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(173, 173, 173);
+    padding: 1rem;
+}
+
+.add-pet {
+    background-color: var(--orange);
+    border: none;
+    border-radius : 0.2rem;
+    padding : 0.7rem 2rem 0.7rem 2rem;
+    color: var(--white);
+
+}
+
+.footer {
+    text-align: center;
+}
+
+.pets-output {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.pet-section {
+    border: 0.01rem solid var(--light-grey);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: var(--grey) 
+}
+
+.view-log-button {
+    margin : 0.2rem;
+    background-color: var(--orange);
+    border:none;
+    border-radius : 0.2rem;
+    padding : 0.7rem 2rem 0.7rem 2rem;
+}
+
+.delete-button {
+    margin : 0.2rem;
+    border: 1px solid var(--orange);
+    color: var(--orange);
+    background-color: var(--white);
+    border-radius : 0.2rem;
+    padding : 0.7rem 2rem 0.7rem 2rem;
 }
