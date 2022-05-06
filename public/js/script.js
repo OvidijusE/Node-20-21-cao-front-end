@@ -2,7 +2,6 @@ import { BASE_URL } from './modules/modulesConfig.js';
 import { renderPetCards } from './modules/renderPets.js';
 
 const petsOutputEl = document.querySelector('.pets-output');
-const viewLogElement = document.querySelector('.view-log-button');
 
 async function getPets() {
   try {
@@ -16,7 +15,3 @@ async function getPets() {
   }
 }
 getPets();
-
-viewLogElement.addEventListener('click', () => {
-  window.location.href = 'healthLog.html';
-});

@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heath log</title>
+    <script type="module" src="./js/healthLog.js" defer></script>
+    <script type="module" src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- <script type="module" src="./js/script.js" defer></script> -->
-  <link rel="stylesheet" href="./css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-  <div class="main-container">
-    <header>
-      <div class="container">
-        <img class="vet-bee-logo" src="/vet-bee-logo.png" alt="" />
-        <div class="main-nav">
-          <a href="/" class="nav-item">Pets</a>
-          <a href="/" class="nav-item">Logs</a>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="container">
+          <img class="vet-bee-logo" src="/vet-bee-logo.png" alt="" />
+          <div class="main-nav">
+            <a href="/" class="nav-item">Pets</a>
+            <a href="/" class="nav-item">Logs</a>
+          </div>
         </div>
-      </div>
-      <div class="hr"></div>
-    </header>
-    <section class="list">
-      <h1>Health Records</h1>
-      <button class="add-pet">ADD PET</button>
-    </section>
-    <section class="cards-container">
-      <div class="pets-output"></div>
-    </section>
-    <footer class="footer">Copyright &copy; VetBee 2018. All rights reserverd.</footer>
-  </div>
-</body>
-
+        <div class="hr"></div>
+      </header>
+      <section class="list">
+        <h1>Health Records</h1>
+        <button class="add-pet">ADD PET</button>
+      </section>
+      <section class="cards-container">
+        <div class="pets-output"></div>
+      </section>
+      <footer class="footer">Copyright &copy; VetBee 2018. All rights reserverd.</footer>
+    </div>
+  </body>
 </html>
