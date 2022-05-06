@@ -82,7 +82,7 @@
     margin : 0.2rem;
     background-color: var(--orange);
     color: var(--white);
-    border: none;
+    border: 0;
     border-radius : 0.2rem;
     padding : 0.7rem 2rem 0.7rem 2rem;
 }
