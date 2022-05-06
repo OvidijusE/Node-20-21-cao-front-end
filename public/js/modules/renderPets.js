@@ -11,7 +11,7 @@ export function createPetCard(newPetObj) {
 
   sectionEl.className = 'pet-section';
   makeEl('h3', `${newPetObj.name}`, sectionEl, 'name');
-  makeEl('p', `${newPetObj.dov}`, sectionEl, 'dob');
+  makeEl('p', `${newPetObj.dob}`, sectionEl, 'dob');
   makeEl('p', `${newPetObj.client_email}`, sectionEl, 'client_email');
   makeEl('button', 'View Log', sectionEl, 'view-log-button');
   makeEl('button', 'Delete', sectionEl, 'delete-button');

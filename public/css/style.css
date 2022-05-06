@@ -5,12 +5,17 @@
     --grey : rgb(125,130,133);
 }
 
+.main-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    
+}
+
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    
+       
 }
 
 
@@ -27,14 +32,20 @@
 }
 
 .hr {
-    border: 0.01rem solid var(--light-grey)
+    align-self: stretch;
+    height: 0.01rem;
+    margin: 1.5rem 0;
+    background-color: var(--light-grey);
+    margin-left: -20rem;
+    margin-right: -20rem;
+    margin-top: 0.3rem;
    
 }
 
 .list {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: rgb(173, 173, 173);
     padding: 1rem;
@@ -55,14 +66,14 @@
 
 .pets-output {
     display: flex;
-    justify-content: center;
-    padding: 1rem;
+    flex-wrap: wrap;
+    
 }
 
 .pet-section {
     border: 0.01rem solid var(--light-grey);
-    margin: 1rem;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: 2rem;
     text-align: center;
     color: var(--grey) 
 }
