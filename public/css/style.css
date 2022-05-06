@@ -65,8 +65,8 @@
 }
 
 .pets-output {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
 
@@ -75,13 +75,14 @@
     margin: 0.5rem;
     padding: 2rem;
     text-align: center;
-    color: var(--grey) 
+    color: var(--grey);
 }
 
 .view-log-button {
     margin : 0.2rem;
     background-color: var(--orange);
-    border:none;
+    color: var(--white);
+    border: none;
     border-radius : 0.2rem;
     padding : 0.7rem 2rem 0.7rem 2rem;
 }

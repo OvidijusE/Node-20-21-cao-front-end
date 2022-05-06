@@ -13,8 +13,8 @@ export function createPetCard(newPetObj) {
   makeEl('h3', `${newPetObj.name}`, sectionEl, 'name');
   makeEl('p', `${newPetObj.dob}`, sectionEl, 'dob');
   makeEl('p', `${newPetObj.client_email}`, sectionEl, 'client_email');
-  makeEl('button', 'View Log', sectionEl, 'view-log-button');
-  makeEl('button', 'Delete', sectionEl, 'delete-button');
+  makeEl('button', 'VIEW LOG', sectionEl, 'view-log-button');
+  makeEl('button', 'DELETE', sectionEl, 'delete-button');
 
   return sectionEl;
 }
