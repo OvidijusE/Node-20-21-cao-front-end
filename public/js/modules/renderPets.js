@@ -13,8 +13,12 @@ export function createPetCard(newPetObj) {
   makeEl('h3', `${newPetObj.name}`, sectionEl, 'name');
   makeEl('p', `${newPetObj.dob}`, sectionEl, 'dob');
   makeEl('p', `${newPetObj.client_email}`, sectionEl, 'client_email');
-  makeEl('button', 'VIEW LOG', sectionEl, 'view-log-button');
-  makeEl('button', 'DELETE', sectionEl, 'delete-button');
+  const viewLogElement = makeEl('button', 'VIEW LOG', sectionEl, 'view-log-button');
+  viewLogElement.addEventListener('click', (e) => {
+    console.log('click');
+    window.location.href = 'healthLog.html';
+  });
+  const deleteButtonEl = makeEl('button', 'DELETE', sectionEl, 'delete-button');
 
   return sectionEl;
 }
